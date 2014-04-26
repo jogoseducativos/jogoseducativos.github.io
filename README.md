@@ -1,4 +1,4 @@
 ## Jogos Educativos
 
-This is the repository for the current verson of jogoseducativos.github.io
+This is the repository for the current version of jogoseducativos.github.io
 
