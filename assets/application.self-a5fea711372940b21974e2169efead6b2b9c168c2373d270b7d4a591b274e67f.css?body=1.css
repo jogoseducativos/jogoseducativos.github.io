@@ -1,0 +1,86 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 20, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+html, body {
+  background: url(https://templated.co//items/demos/visualize/images/bg.jpg) no-repeat;
+  background-size: 100%;
+  background-attachment: fixed, fixed;
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 32, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+.no-margin-top {
+  margin-top: 0;
+}
+
+/* line 36, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+header {
+  margin-bottom: 30px;
+}
+
+/* line 40, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+footer {
+  margin-top: 50px;
+}
+/* line 43, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+footer p {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 52, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu {
+  padding: 10px 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+}
+/* line 56, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu li {
+  margin-bottom: 20px;
+}
+/* line 60, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu i.fa {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 64, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu a {
+  color: rgba(255, 255, 255, 0.8);
+}
+/* line 67, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu a.active {
+  font-weight: bold;
+}
+/* line 71, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu a.active, section.menu a:hover {
+  color: #FFF;
+}
+/* line 74, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+section.menu a.active i.fa, section.menu a:hover i.fa {
+  color: #ced8df;
+}
+
+/* line 81, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+.area {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+/* line 85, /Users/rafaelgoulart/Desktop/jogoseducativos/app/assets/stylesheets/application.scss */
+.area.padding {
+  padding: 10px 20px;
+}
