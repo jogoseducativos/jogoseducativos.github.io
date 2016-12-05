@@ -73,7 +73,7 @@ $(function(){
     e.preventDefault();
 
     if (parent.location.hostname !== 'jogoseducativos.github.io' && parent.location.hostname !== 'localhost') {
-      parent.window.open('http://jogoseducativos.github.io/jogos-educativos-online');
+      window.location.href = 'http://jogoseducativos.github.io/jogos-educativos-online';
       return;
     }
 
