@@ -72,7 +72,9 @@ $(function(){
   $('a.play').on('click', function(e){
     e.preventDefault();
 
-    if (window.top !== window.self) {
+    console.log('Game', parent.location);
+
+    if (parent.location.hostname !== 'jogoseducativos.github.io' && parent.location.hostname !== 'localhost') {
       window.location.href = 'http://jogoseducativos.github.io/jogos-educativos-online';
       return;
     }
