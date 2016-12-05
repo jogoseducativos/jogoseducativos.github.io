@@ -72,11 +72,14 @@ $(function(){
   $('a.play').on('click', function(e){
     e.preventDefault();
 
-    console.log('Game', parent.location);
 
-    if (parent.location.hostname !== 'jogoseducativos.github.io' && parent.location.hostname !== 'localhost') {
-      window.location.href = 'http://jogoseducativos.github.io/jogos-educativos-online';
-      return;
+    if (window.self !== window.top) {
+      console.log('Game', document.referrer);
+
+      if (parent.location.hostname !== 'jogoseducativos.github.io' && parent.location.hostname !== 'localhost') {
+        window.location.href = 'http://jogoseducativos.github.io/jogos-educativos-online';
+        return;
+      }
     }
 
     var audioMusic = $('#audioMusic')[0]
