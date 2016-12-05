@@ -70,16 +70,11 @@ $(function(){
   })
 
   $('a.play').on('click', function(e){
-    e.preventDefault();
-
-
-    if (window.self !== window.top) {
-      console.log('Game referrer', document.referrer);
-
-      if (document.referrer.indexOf('jogoseducativos.') === -1) {
-        return;
-      }
+    if (window.self !== window.top && document.referrer.indexOf('jogoseducativos.') === -1) {
+      return;
     }
+
+    e.preventDefault();
 
     var audioMusic = $('#audioMusic')[0]
     audioMusic.volume = 0.7;
